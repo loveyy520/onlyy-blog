@@ -1,0 +1,9 @@
+/* 页脚与头图透明 */
+#page-header,#footer,
+/* day-mode-mask */
+#page-header::before, #footer::before,
+/* dark-mode-mask */
+[data-theme="dark"] #page-header::before, [data-theme="dark"] #footer::before
+{
+  background: transparent !important;
+}
