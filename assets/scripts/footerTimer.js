@@ -1,10 +1,10 @@
 var now = new Date();
 function createtime() {
   now.setTime(now.getTime() + 1e3);
-  var e = new Date("30/10/2022 00:00:00"),
+  var e = new Date("2022-10-30 00:00:00"),
     t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),
     a = (t / 1496e5).toFixed(6),
-    n = new Date("30/10/2022 00:00:00"),
+    n = new Date("2022-10-30 00:00:00"),
     s = (now - n) / 1e3 / 60 / 60 / 24,
     o = Math.floor(s),
     r = (now - n) / 1e3 / 60 / 60 - 24 * o,
@@ -19,10 +19,11 @@ function createtime() {
   let g = "";
   (g =
     i < 18 && i >= 9
-      ? `<img class='boardsign' src='https://img.shields.io/badge/F小屋-上班摸鱼中-6adea8?style=social&logo=cakephp' title='When waiting comes into a habit.'><span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 ——— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</font></b> `
-      : `<img class='boardsign' src='https://img.shields.io/badge/F小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='How to achieve something you are looking forward to?'><span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>世界上繁花无数，唯有你是我的玫瑰✨</font></b> `),
-    document.getElementById("workboard") &&
-      (document.getElementById("workboard").innerHTML = g);
+      ? `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>世界上繁花无数✨</font></b> `
+      : `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>唯有你是我的玫瑰✨</font></b> `),
+    console.log(g);
+  document.getElementById("workboard") &&
+    (document.getElementById("workboard").innerHTML = g);
 }
 setInterval(() => {
   createtime();
