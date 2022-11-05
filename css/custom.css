@@ -258,3 +258,21 @@ h6::before {
   display: flex;
   flex-wrap:nowrap;
 }
+/* 伪取消蓝色下划线 */
+#nav *::after{
+  background-color: transparent!important;
+}
+/* 子菜单横向布局 */
+.menus_item_child li:not(#sidebar-menus li){
+  float: left;
+  border-radius: 6px!important;
+  -webkit-border-radius: 6px!important;
+  -moz-border-radius: 6px!important;
+  -ms-border-radius: 6px!important;
+  -o-border-radius: 6px!important;
+}
+.menus_item_child:not(#sidebar-menus ul){
+left:50%;
+translate:-50%;
+}
+
