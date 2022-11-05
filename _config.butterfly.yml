@@ -439,7 +439,7 @@ inject:
     - <link rel="stylesheet" href="https://blog.onlyy.vip/css/custom.css">
   bottom:
     # iconfont
-    - <script async src="//at.alicdn.com/t/c/font_3751481_e2mdyk3go7d.js"></script> # iconfont onlyy-blog
+    - <script async src="//at.alicdn.com/t/c/font_3751481_rphep3klel.js"></script> # iconfont onlyy-blog
     # 加载进度条
     - <script src="https://blog.onlyy.vip/assets/scripts/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
