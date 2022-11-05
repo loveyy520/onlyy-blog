@@ -256,6 +256,13 @@ h6::before {
   animation: ccc 6s linear infinite;
 }
 
+/* 菜单文字 */
+#menus > .menus_items > .menu_item > a {
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: #e8d8b9 0 0 2px;
+}
+
 /* 右侧nav 添加 flex:1  使导航栏居中 */
 #nav-right{
   flex:1 1 auto;
@@ -281,6 +288,8 @@ h6::before {
 left:50%;
 translate:-50%;
 }
+
+
 /* 网站标题增强 */
 #site-name::before{
   opacity: 0;
