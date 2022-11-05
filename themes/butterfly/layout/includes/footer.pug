@@ -1,0 +1,25 @@
+#footer-wrap
+  if theme.footer.owner.enable
+    - var now = new Date()
+    - var nowYear = now.getFullYear()
+    if theme.footer.owner.since && theme.footer.owner.since != nowYear
+      .copyright
+        span!= `&copy;${theme.footer.owner.since} - ${nowYear}`
+        svg(style="width:1.5em; height:1.5em" aria-hidden="true")
+          use(xlink:href="#icon-Butterfly")
+        span!= `${config.author}`
+    else
+      .copyright
+        span!= `&copy;${nowYear}`
+        svg(style="width:1.5em; height:1.5em" aria-hidden="true")
+          use(xlink:href="#icon-Butterfly")         
+        span!= `${config.author}`
+  if theme.footer.copyright
+    .framework-info
+      span= _p('footer.framework') + ' '
+      a(href='https://hexo.io')= 'Hexo'
+      span.footer-separator |
+      span= _p('footer.theme') + ' '
+      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
+  if theme.footer.custom_text
+    .footer_custom_text!=`${theme.footer.custom_text}`

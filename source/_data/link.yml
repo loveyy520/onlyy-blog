@@ -1,0 +1,13 @@
+- class_name: 1.技术支持
+  class_desc: 本站基于Hexo框架搭建
+  link_list:
+    - name: Hexo
+      link: https://hexo.io.zh-cn/
+      avatar: https://d33wubrfki0168.cloudfront.net/6657ba50e702d84afb32fe846bed54fbala77add/827ae/logo.svg
+- class_name: 2.友情链接
+  class_desc: With friends ~
+  link_list:
+    - name: Fomalhaut
+      link: https://fomal.cc
+      avatar: /assets/head.jpg
+      siteshot: https://source.fomal.cc/siteshot/wwww.fomal.cc.jpg

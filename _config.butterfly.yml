@@ -1,0 +1,517 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Menu
+menu:
+  首 页: / || icon-shouye-01 || fas fa-tasks || faa-tada
+  文 章||icon-wenzhang:
+    分 类: /articals/categories/ || icon-fenlei2 || faa-tada
+    归 档: /articals/archives/ || icon-guidang || fas fa-archives
+    标 签: /articals/tags/ || icon-biaoqian || fas fa-tags
+  休 闲||icon-yule:
+    音 乐: /relax/music/ || icon-yinle || fa fa-camera || faa-tada
+    影 视: /relax/video/ || icon-dianying || fas fa-video
+  空 间 || icon-kongjian1:
+    LoveStory: /zone/love-story/ || icon-guanai-aixin
+    Work&Life: /zone/work-life/ || icon-shenghuo
+  社 交 || icon-guanyuwomen:
+    留 言 板: /social/comments/ || icon-xiangsufeng_xinfeng || fas fa-envelope
+    Friends: /social/link/ || icon-lianjie || fas fa-link
+  About: /about/ || icon-guanyu
+
+# 代码块相关配置
+highlight_theme: mac # darker # pale night # light # ocean # mac # mac light
+highlight_copy: true # 允许代码被复制
+highlight_shrink: false # 代码块默认折叠
+code_word_wrap: true # 代码换行
+highlight_height_limit: false # unit: px 限制代码块最大显示高度
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_img:
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: "mtime"
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+
+# 文章默认封面
+## 可在文章的front-matter里单独设置 cover: xxx.jpg 来覆盖默认封面
+cover:
+  # 是否显示文章封面
+  index_enable: true # 在首页中显示文章封面
+  aside_enable: true # 侧边显示文章封面
+  archives_enable: true # 归档中显示文章封面
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
+  position: both
+  # 当没有设置cover时，默认的封面显示
+  ## 可以写列表放多张图片，系统会随机选取之一
+  default_cover: https://blog.onlyy.vip/img/Wendy.png
+
+# 文章元信息
+post_meta:
+  page:
+    date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: true # true or false 显示描述性文字
+
+# 文章版权信息
+post_copyright:
+  enable: true
+  decode: true
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  copyright_author: ChrisLey
+  copyright_info: 此文章版权归ChrisLey所有, 如有转载, 请注明来自原作者
+
+# 文章打赏信息
+reward:
+  enable: true
+  coinAudio: https://assets.akilar.top@1.0.16/audio/coin.mp3
+  QR_code:
+    - img: /img/wechat.jpg
+      link:
+      text: 微 信
+    - img: /img/alipay.jpg
+      link:
+      text: 支付宝
+  CDN:
+    # main
+    main_css: /css/index.css
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js
+    main: /js/main.js
+    utils: /js/utils.js
+    # 打赏按钮投币效果
+    coin_js: /js/coin.js
+    coin_css: /css/coin.css
+
+# 文章目录 toc
+toc:
+  priority: 1
+  post: true # 文章页是否显示 TOC
+  page: true # 普通页面是否显示 TOC
+  number: true # 是否显示章节数
+  expand: false # 是否展开 TOC
+  style_simple: false # for post 简洁模式（侧边栏只显示 TOC, 只对文章页有效 ）
+
+# 相关文章 根据 tags 权重推荐
+related_post:
+  enable: true
+  limit: 6 # 显示推荐文章数目
+  date_type: created # or created or updated 文章日期显示创建日或者更新日
+
+# 文章锚点
+# anchor
+# when you scroll in post , the url will update according to header id.
+anchor: true
+
+# 文章分页
+# post_pagination
+# false:为关闭分页按钮；1:下一篇显示的是旧文章；2:下一篇显示的是新文章
+# 1: The 'next post' will link to old post
+# 2: The 'next post' will link to new post
+# false: disable pagination
+post_pagination: 2
+
+# Displays outdated notice for a post (文章过期提醒)
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 365 # 距离更新时间多少天才显示文章过期提醒
+  position: top # position: top/bottom
+  message_prev: 这篇文章写于 # 天数之前的文字
+  message_next: 天之前，内容可能有点旧了哦。 # 天数之后的文字
+
+# 个人信息
+## 头像
+avatar:
+  img: /img/avatar.png
+  effect: false # 是否开启旋转动画infinity
+
+## 社交主页
+social:
+  Github: https://github.com/loveyy520 || icon-github1
+  Email: mailto:201357337@qq.com || icon-email
+
+# 文章复制配置
+# copy settings
+# copyright: Add the copyright information after copied content (复制的内容后面加上版权信息)
+copy:
+  enable: true # 是否开启网站复制权限
+  copyright: # 复制的内容后面加上版权信息
+    enable: true # 是否开启复制版权信息添加
+    limit_count: 50 # 字数限制，当复制文字大于这个字数限制时，将在复制的内容后面加上版权信息
+
+# 页脚设置
+footer:
+  owner:
+    enable: true
+    since: 2022 # 站点起始时间
+    # 是一个给你用来在页脚自定义文本的选项。通常你可以在这里写声明文本等,支持 HTML。
+    custom_text: I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+  copyright: false # Copyright of theme and framework
+
+# 右下角
+## 繁简语言
+translate:
+  enable: false
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 繁
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+  # 网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 2
+  # Time delay 延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  translateDelay: 0
+  # 当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  # 当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "簡"
+
+## 夜间模式
+# dark mode
+darkmode:
+  enable: false
+  # dark 和 light 两种模式切换按钮
+  button: true
+  # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
+  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
+  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
+  # autoChangeMode: false
+  autoChangeMode: false
+
+## 阅读模式
+readmode: true
+
+# 侧边栏设置
+##
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: right # left or right
+  display:
+    archive: true
+    tag: true
+    category: true
+  ### 作者信息卡片
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: # fab fa-github
+      text: 🛴Have a look...
+      link: https://github.com/loveyy520
+  card_announcement:
+    enable: false
+    content: <center>主域名：<br><a href="https://loveyy520.github.io/onlyy-blog"><b><font color="#5ea6e5">loveyy520.github.io</font></b></a>&nbsp;|&nbsp;<a href="https://blog.onlyy.vip"><b><font color="#5ea6e5">blog.onlyy.vip</font></b></a><br><a href="mailto:201357337@qq.com@fomal.cn">📬：<b><font color="#a591e0">201357337@qq.com</font></b></a></center>
+    exclude:
+      - /post/
+  ### 近期文章
+  card_recent_post:
+    enable: true
+    limit: 3 # if set 0 will show all
+    sort: date # date or updated
+    sort_order: # Don't modify the setting unless you know how it works
+    exclude:
+      - /post/
+  ### 分类
+  card_categories:
+    enable: true
+    limit: 8 # if set 0 will show all
+    expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
+    exclude:
+      - /post/
+  card_tags:
+    enable: true
+    limit: 20 # if set 0 will show all
+    color: true
+    sort_order: # Don't modify the setting unless you know how it works
+    exclude:
+      - /post/
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
+    exclude:
+      - /post/
+  card_webinfo:
+    enable: false
+    post_count: true
+    last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
+    exclude:
+      - /post/
+  # 微博热搜
+  card_weibo:
+    enable: false
+    exclude:
+      - /post/
+
+## UV / PV
+busuanzi:
+  site_uv: true # 本站总访客数
+  site_pv: true # 本站总访问量
+  page_pv: true # 本文总阅读量
+
+## 运行时间
+# Time difference between publish date and now (網頁運行時間)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
+runtimeshow:
+  enable: false
+  publish_date: 2022/10/30 00:00:00
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
+# 最新评论信息
+# Aside widget - Newest Comments
+# newest_comments:
+#   enable: true
+#   sort_order: # Don't modify the setting unless you know how it works
+#   limit: 6  # 显示的数量
+#   storage: 10 # 设置缓存时间，单位 分钟
+#   avatar: true # 是否显示头像
+
+## 网站背景图
+# 图片格式 url(http://xxxxxx.com/xxx.jpg)
+# 颜色（HEX值/RGB值/颜色单词/渐变色)
+# 留空 不显示背景
+background: url(https://blog.onlyy.vip/img/Wendy.png)
+
+## 打字机效果
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: false
+  colorful: true # open particle animation (冒光特效)
+  shake: true #  open shake (抖動特效)
+  mobile: false
+
+## 页脚背景图
+# footer是否显示图片背景(true为与top_img一致)
+footer_bg: false
+
+## 背景特效
+### 动态
+canvas_fluttering_ribbon:
+  enable: true
+  mobile: true # false 手机端不显示 true 手机端显示
+### 静态
+# canvas_ribbon:
+#   enable: false
+#   size: 150
+#   alpha: 0.6
+#   zIndex: -1
+#   click_to_change: false #設置是否每次點擊都更換彩带
+#   mobile: false # false 手機端不顯示 true 手機端顯示
+### canvas详细设置
+# canvas_nest:
+#   enable: true
+#   color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+#   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+#   zIndex: -1 # z-index property of the background, default: -1.
+#   count: 99 # the number of lines, default: 99.
+#   mobile: false # false 手機端不顯示 true 手機端顯示
+
+## 点击特效
+### 烟花
+# fireworks:
+#   enable: true
+#   zIndex: 9999 # -1 or 9999
+#   mobile: false
+### 爱心
+click_heart:
+  enable: true
+  mobile: false
+### 自定义文字
+# ClickShowText:
+#   enable: false
+#   #### 每次点击出现列表随机一项
+#   text:
+#     - I
+#     - LOVE
+#     - YOU
+#   fontSize: 15px
+#   random: false # 文字随机显示
+#   mobile: false
+
+# 字体配置
+## 全局字体
+# Global font settings
+# Don't modify the following settings unless you know how they work (非必要不要修改)
+font:
+  global-font-size: "15px"
+  code-font-size: "14px"
+  # -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif
+  # Wenkai, consolas, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+  font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+  # consolas, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+  # Consolas_1, ZhuZiAWan_light, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+  code-font-family: Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+## 标题字体
+# Font settings for the site title and site subtitle
+# https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+# Titillium Web, 'PingFang SC' , 'Hiragino Sans GB' , 'Microsoft JhengHei' , 'Microsoft YaHei' , sans-serif
+# 左上角網站名字 主頁居中網站名字
+blog_title_font:
+  font_link:
+  font-family: var(--global-font)
+
+# Subtitle
+# the subtitle on homepage (主頁subtitle)
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  # loop (循環打字)
+  loop: true
+  # source 調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
+  sub:
+    - "Onlyy with you!🥝"
+    - "Wish u have fun!🍭🍭🍭"
+
+# 加载动画 Loading Animation
+preloader: true
+
+# 字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# 图片查看大图
+# fancybox http://fancyapps.com/fancybox/3/
+fancybox: true
+
+# 注入自定义内容: 一般 head 里放 style 而在 bottom 放 script
+# Inject
+# Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
+# 插入代码到头部 </head> 之前 和 底部 </body> 之前
+inject:
+  head:
+    - <link rel="stylesheet" href="https://blog.onlyy.vip/css/custom.css">
+  bottom:
+    # iconfont
+    - <script async src="//at.alicdn.com/t/c/font_3751481_e2mdyk3go7d.js"></script> # iconfont onlyy-blog
+    # 加载进度条
+    - <script src="https://blog.onlyy.vip/assets/scripts/progress-bar.js"></script>
+    # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
+    # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
+
+# algolia search
+algolia_search:
+  enable: false
+  hits:
+    per_page: 6
+
+# 本地搜索配置
+local_search:
+  enable: true
+
+# 美化
+beautify:
+  enable: true
+  field: post # site/post
+  # title-prefix-icon: '\f0c1' 原内容
+  title-prefix-icon: '\f863'
+  title-prefix-icon-color: "#F47466"
+
+# 页脚美化
+# footer_beautify
+# 页脚计时器：[Native JS Timer](https://akilar.top/posts/b941af/)
+# 页脚徽标：[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
+footer_beautify:
+  enable:
+    timer: true # 计时器开关
+    bdage: true # 徽标开关
+  priority: 5 # 过滤器优先权
+  enable_page: all # 应用页面
+  # 屏蔽页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: id
+    name: footer-wrap
+    index: 0
+  # 计时器部分配置项（看你喜欢哪个，最好下载下来放到自己的项目中不然会增加我网站的负载）
+  # 这是我的
+  runtime_js: https://blog.onlyy.vip/assets/scripts/footerTimer.js
+  runtime_css: https://blog.onlyy.vip/css/footerTimer.css
+  # 这是店长的
+  # runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
+  # runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
+  # 徽标部分配置项
+  swiperpara: 0 # 若非0，则开启轮播功能，每行徽标个数
+  bdageitem:
+    - link: https://hexo.io/ # 徽标指向网站链接
+      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo # 徽标API
+      message: 博客框架为Hexo_v6.2.0 # 徽标提示语
+    - link: https://butterfly.js.org/
+      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+      message: 主题版本Butterfly_v4.5.1
+    - link: https://vercel.com/
+      shields: https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&logo=Vercel
+      message: 本站采用多线部署, 主线路托管于Vercel
+    - link: https://github.com/
+      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+      message: 本站项目由Github托管
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js
+  swiperbdage_init_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify/lib/swiperbdage_init.min.js
+
+# 音乐播放器设置
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true
