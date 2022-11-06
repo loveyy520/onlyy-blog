@@ -136,7 +136,7 @@ pjax:
   # 点击该网页会重新加载网站。
   exclude:
     - /music/
-    - /no-pjax/
+    - /video/
 
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
@@ -377,6 +377,30 @@ magnet:
 aplayer:
   meting: true
   asset_inject: false # 关闭 asset_inject 防止注入重复资源
+
+# 豆瓣清单插件（不提供站内播放、阅读等功能）
+douban:
+  user: 264246084
+  builtin: true
+  book:
+    title: 书籍清单
+    quote: "豆瓣读书个人清单，不提供站内阅读功能"
+    meta: true
+    comments: true
+    top_img: https://loveyy520.github.io/onlyy-blog/img/Wendy.png
+    aside: true
+    path: recommend/books
+    limit:
+  movie:
+    title: "影视清单"
+    quote: "豆瓣电影个人清单，不提供站内观影功能~"
+    meta: true
+    comments: true
+    top_img: https://loveyy520.github.io/onlyy-blog/img/Wendy.png
+    aside: true
+    path: recommend/movies
+    limit:
+  timeout: 10000
 
 # SEO 插件
 nofollow:

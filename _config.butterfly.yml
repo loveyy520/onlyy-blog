@@ -5,17 +5,21 @@
 # Menu
 menu:
   首 页: / || icon-shouye-01 || fas fa-tasks || faa-tada
-  文 章||icon-wenzhang:
+  文 章||icon-tubiaozhizuomoban-:
     分 类: /articals/categories/ || icon-fenlei2 || faa-tada
     归 档: /articals/archives/ || icon-guidang || fas fa-archives
     标 签: /articals/tags/ || icon-biaoqian || fas fa-tags
   休 闲||icon-yule:
     音 乐: /relax/music/ || icon-yinle || fa fa-camera || faa-tada
-    影 视: /relax/video/ || icon-dianying || fas fa-video
-    图 库: /relax/photo/ || icon-dianying
+    影 视: /relax/movies/ || icon-dianying || fas fa-video
+    游 戏: /relax/games/ || icon-youxi
+    图 库: /relax/photos/ || icon-dianying
   空 间 || icon-kongjian1:
     LoveStory: /zone/love-story/ || icon-guanai-aixin
     Work&Life: /zone/work-life/ || icon-shenghuo
+  推 荐||icon-deng:
+    影 视: /recommend/movies/ || icon-dianying
+    书 籍: /recommend/books/ || icon-tubiaozhizuomoban-
   社 交 || icon-guanyuwomen:
     留 言 板: /social/comments/ || icon-xiangsufeng_xinfeng || fas fa-envelope
     Friends: /social/link/ || icon-lianjie || fas fa-link
@@ -365,7 +369,7 @@ background: url(https://blog.onlyy.vip/img/Wendy.png)
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
   mobile: false
@@ -423,7 +427,7 @@ click_heart:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: "15px"
+  global-font-size: "16px"
   code-font-size: "14px"
   # -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif
   # Wenkai, consolas, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
@@ -461,7 +465,10 @@ subtitle:
     - "Wish u have fun!🍭🍭🍭"
 
 # 加载动画 Loading Animation
-preloader: true
+preloader:
+  enable: true
+  # 1 fullpage-loading ; 2 progress-bar
+  source: 1
 
 # 字数统计
 wordcount:
@@ -473,6 +480,13 @@ wordcount:
 # 图片查看大图
 # fancybox http://fancyapps.com/fancybox/3/
 fancybox: true
+
+# css 前缀(适配浏览器，但是增加20%的css体积)
+css-prefix: true
+
+# https://instant.page/
+# prefetch (链接预加载：悬停 65 ms 时自动预加载)
+instantpage: true
 
 # 注入自定义内容: 一般 head 里放 style 而在 bottom 放 script
 # Inject
@@ -486,7 +500,7 @@ inject:
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
   bottom:
     # iconfont
-    - <script async src="//at.alicdn.com/t/c/font_3751481_rphep3klel.js"></script> # iconfont onlyy-blog
+    - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
     # 加载进度条
     - <script src="https://blog.onlyy.vip/assets/scripts/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
@@ -502,10 +516,11 @@ algolia_search:
 local_search:
   enable: true
 
-# 美化
+# 美化: ul、ol h1-h5
 beautify:
   enable: true
-  field: post # site/post
+  # post: 只在文章生效；site: 全站生效
+  field: site # site/post
   # title-prefix-icon: '\f0c1' 原内容
   title-prefix-icon: '\f863'
   title-prefix-icon-color: "#F47466"
