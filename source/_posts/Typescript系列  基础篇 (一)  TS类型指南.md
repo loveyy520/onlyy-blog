@@ -1,7 +1,13 @@
 ---
+layout: post
 title: TS系列基础篇(一) TS类型指南
 date: 2022-03-01 09:40
-tag:
+keywords:
+  - 前端
+  - TypeScript
+  - TS
+  - 类型
+tags:
   - TypeScript
   - 前端
 archive: TypeScript
