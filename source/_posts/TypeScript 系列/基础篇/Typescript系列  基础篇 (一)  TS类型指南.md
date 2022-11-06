@@ -2,6 +2,7 @@
 layout: post
 title: TS系列基础篇(一) TS类型指南
 date: 2022-03-01 09:40
+updated: 2022-03-01 09:40
 keywords:
   - 前端
   - TypeScript
@@ -13,6 +14,8 @@ tags:
 archive: TypeScript
 swiper_index: 10
 ---
+
+# TS 系列基础篇(一) TS 类型指南
 
 这段时间以来，TS 的发展可谓是如日中天，本想偷个懒去看看别人写的分享贴来学习，找了近十篇之后，发现要么是比较浅显，要么有些偏差，没有找到很满意的。于是决定去看[官方文档](https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html#consuming)。学习了一段时间后，准备写一个系列，从基础类型，对象，函数，模块等 TS 知识，到在`vue`、`react`中的应用，供有需要的同学们参考。其中，我套用了不少官方文档的示例，觉得我的学习经验不好或不正确的朋友，欢迎批评指正。
 

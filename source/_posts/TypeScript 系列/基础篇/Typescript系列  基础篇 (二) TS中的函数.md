@@ -1,18 +1,22 @@
 ---
 layout: post
 title: Typescript 系列基础篇(二) TS 中的函数
-date: 2020-03-02 00:46
+date: 2022-03-02 00:46
+updated: 2022-03-02 00:46
 keywords:
-- 前端
-- TypeScript
-- TS
-- 类型
-  tags:
-- TypeScript
-- 前端
-  archive: TypeScript
-  swiper_index: 9
+  - 前端
+  - TypeScript
+  - TS
+  - 类型
+tags:
+  - TypeScript
+  - 前端
+archive: TypeScript
+description: 详细介绍TypeScript中的函数。
+swiper_index: 9
 ---
+
+# Typescript 系列基础篇(二) TS 中的函数
 
 函数在我们日常代码中占有绝对重要的地位，深入了解 TS 中函数的使用对我们的学习十分有利。如果你还不了解**泛型函数**、**函数签名**、**函数重载**，那么阅读本文将让你对 TS 中的函数有一个更加细致的理解，必能有所收获。
 
