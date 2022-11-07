@@ -108,10 +108,10 @@ reward:
   enable: true
   coinAudio: https://assets.akilar.top@1.0.16/audio/coin.mp3
   QR_code:
-    - img: https://loveyy520.github.io/onlyy-assets/qrcodes/WeChat.png
+    - img: https://assets.onlyy.vip/qrcodes/WeChat.png
       link:
       text: 微 信
-    - img: https://loveyy520.github.io/onlyy-assets/qrcodes/Alipay.png
+    - img: https://asssets.onlyy.vip/qrcodes/Alipay.png
       link:
       text: 支付宝
   CDN:
@@ -182,7 +182,7 @@ noticeOutdate:
 # 个人信息
 ## 头像
 avatar:
-  img: https://loveyy520.github.io/onlyy-assets/icons/dst/Willow.png
+  img: https://asssets.onlyy.vip/icons/dst/Willow.png
   effect: false # 是否开启旋转动画infinity
 
 ## 社交主页
@@ -363,7 +363,7 @@ runtimeshow:
 # 图片格式 url(http://xxxxxx.com/xxx.jpg)
 # 颜色（HEX值/RGB值/颜色单词/渐变色)
 # 留空 不显示背景
-background: url(https://loveyy520.github.io/onlyy-assets/photos/dont-starve/bg_willow_victorian.png)
+background: url(https://asssets.onlyy.vip/photos/dont-starve/bg_willow_victorian.png)
 
 ## 打字机效果
 # Typewriter Effect (打字效果)
@@ -494,7 +494,7 @@ instantpage: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 注入自定义的css
+    # 注入自定义的css，由于vercel托管的找不到css文件，暂时用github
     - <link rel="stylesheet" href="https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/custom.css">
     # 百度收录验证
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
@@ -502,10 +502,10 @@ inject:
     # iconfont
     - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
     # 加载进度条
-    - <script src="https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/progress-bar.js"></script>
+    - <script src="https://assets.onlyy.vip/js/onlyy-blog/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
-    - <script src="https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/rain.js"></script>
+    - <script src="https://assets.onlyy.vip/js/onlyy-blog/rain.js"></script>
 
 # algolia search
 algolia_search:
@@ -546,7 +546,8 @@ footer_beautify:
     index: 0
   # 计时器部分配置项（看你喜欢哪个，最好下载下来放到自己的项目中不然会增加我网站的负载）
   # 这是我的
-  runtime_js: https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/footerTimer.js
+  runtime_js: https://assets.onlyy.vip/js/onlyy-blog/footerTimer.js
+  ## vercel 托管的找不到css文件，暂时沿用github托管的css
   runtime_css: https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/footerTimer.css
   # 这是店长的
   # runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js

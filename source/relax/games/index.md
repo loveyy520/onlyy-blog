@@ -13,7 +13,7 @@ It's fun time !
 这是我写的一个经典贪吃蛇。虽然很想让你停下来玩会儿游戏，放松一下。但是它实在太简陋了，我都没有时间去装饰，目前甚至不能重开。
 
 <div align=center id="game-container-snake">
-    <iframe src="https://loveyy520.github.io/onlyy-snake/" 
+    <iframe src="https://snake.onlyy.vip" 
     scrolling="no" 
     border="0" 
     frameborder="no" 

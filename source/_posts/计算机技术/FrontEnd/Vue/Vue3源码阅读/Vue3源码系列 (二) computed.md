@@ -17,7 +17,7 @@ categories:
   - Vue3
   - [源码]
 abbrlink: 16fef359
-cover: https://loveyy520.github.io/onlyy-assets/photos/dont-starve/bg_winters_feast.png
+cover: https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png
 ---
 
 想起上次面试，被问了个古老的问题：**watch 和 computed 的区别**。多少有点感慨，现在已经很少见这种耳熟能详的问题了，网络上八股文不少。今天，我更想分享一下从源码的层面来区别这八竿子打不着的两者。上一篇看了`watch`的源码，本篇针对**computed**做分析。
