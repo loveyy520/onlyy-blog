@@ -533,12 +533,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
       newEle.addEventListener("click", clickFn);
     },
-    switchDarkMode: () => {
+    switchDarkMode: (e) => {
+      // change icon between moon and sun
+      let { target: el } = e;
+      switch (el.tagName) {
+        case "svg":
+          el = el.childNodes[0];
+          break;
+        case "A":
+          el = el.childNodes[0].childNodes[0];
+          break;
+        case "DIV":
+          el = el.childNodes[0].childNodes[0].childNodes[0];
+          break;
+        default:
+          break;
+      }
       // Switch Between Light And Dark Mode
       const nowMode =
         document.documentElement.getAttribute("data-theme") === "dark"
           ? "dark"
           : "light";
+      const iconSymbol =
+        nowMode === "light" ? "#icon-taiyang1" : "#icon-ClearNight-qing-yewan";
+      el.setAttribute("xlink:href", iconSymbol);
       if (nowMode === "light") {
         activateDarkMode();
         saveToLocal.set("theme", "dark", 2);
@@ -621,11 +639,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ! 手动添加右上角夜间模式切换
-  document.getElementById("darkmode-button")?.addEventListener("click", () => {
-    console.log(rightSideFn);
-    console.log(rightSideFn.switchDarkMode);
-    rightSideFn.switchDarkMode();
-  });
+  document
+    .getElementById("darkmode-button")
+    ?.addEventListener("click", rightSideFn.switchDarkMode);
 
   /**
    * menu

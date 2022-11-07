@@ -1,5 +1,5 @@
 ---
-title: 分类
+title: 分 类
 date: 2022-10-30 13:14
 type: categories
 ---

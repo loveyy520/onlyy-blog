@@ -2,12 +2,15 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# 字体图标备选
+# 🦄🦋🌿🕸❄️🍒🍭🍷✅❎❗️
+
 # Site
-title: Onlyy🍭
+title: Onlyy🦄
 subtitle: ""
-description: "Record of life."
+description: "Record of life 🍷"
 keywords:
-author: ChrisLey
+author: ChrisLey❄️
 language: zh-CN
 timezone: "Asia/Shanghai"
 
@@ -15,8 +18,22 @@ timezone: "Asia/Shanghai"
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://loveyy520.github.io/onlyy-blog
 root: /onlyy-blog/
-permalink: articals/:hash/
+permalink: articals/:abbrlink/
 permalink_defaults:
+# abbrlink config
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: true #true(default)
+    depth: #3(default)
+    over_write: false
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink. This only updates abbrlink rather than other front variables.
 
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -31,6 +48,9 @@ category_dir: articals/categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# 给归档 换个 名字
+archive_title: 时光机🍭
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -175,15 +195,15 @@ envelope_comment:
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
   message: #信笺正文，多行文本，写法如下
-    - 有什么想问的？
-    - 有什么想说的？
-    - 有什么想吐槽的？
-    - 哪怕是有什么想吃的，都可以告诉我哦~
-  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+    - 趁笨蛋站长不注意，
+    - 有什么想吐槽的，
+    - 或者想夸的(不必吝惜文字),
+    - 都可以悄咪咪写在这里哦~
+  bottom: Onlyy 小助手为您服务！ #仅支持单行文本
   height: #1050px，信封划出的高度
   path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
   front_matter: #【可选】comments页面的 front_matter 配置
-    title: 留言板
+    title: 留言板🍒
     comments: true
 
 # 首页分类磁贴
@@ -261,7 +281,7 @@ swiper:
     type: id
     name: recent-posts
     index: 0
-  default_descr: ！
+  default_descr: 作者还在睡觉，忘了写文章描述~
   swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
@@ -423,4 +443,5 @@ nofollow:
 baidusitemap:
 path: baidusitemap.xml
 
-favicon: https://loveyy520.github.io/onlyy-blog/img/favicon.ico
+# 启用压缩插件
+all_minifier: true

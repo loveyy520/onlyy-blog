@@ -1,5 +1,6 @@
 - var pageTitle
-- is_archive() ? page.title = findArchivesTitle(page, theme.menu, date) : ''
+- is_archive() ? page.title = page.title || config.archive_title : ''
+//- findArchivesTitle(page, theme.menu, date) 原主题用此函数查找 归档 的title
 - if (is_tag()) pageTitle = _p('page.tag') + ': ' + page.tag
 - else if (is_category()) pageTitle = _p('page.category') + ': ' + page.category
 - else if (is_current('/404.html', [strict])) pageTitle = _p('error404')

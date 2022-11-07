@@ -7,7 +7,7 @@ menu:
   首 页: / || icon-shouye-01 || fas fa-tasks || faa-tada
   文 章||icon-tubiaozhizuomoban-:
     分 类: /articals/categories/ || icon-fenlei2 || faa-tada
-    归 档: /articals/archives/ || icon-guidang || fas fa-archives
+    时 光 机: /articals/archives/ || icon-guidang || fas fa-archives
     标 签: /articals/tags/ || icon-biaoqian || fas fa-tags
   休 闲||icon-yule:
     音 乐: /relax/music/ || icon-yinle || fa fa-camera || faa-tada
@@ -17,20 +17,20 @@ menu:
   空 间 || icon-kongjian1:
     LoveStory: /zone/love-story/ || icon-guanai-aixin
     Work&Life: /zone/work-life/ || icon-shenghuo
-  豆瓣推荐||icon-deng:
+  推 荐||icon-deng:
     影 视: /recommend/movies/ || icon-dianying
     书 籍: /recommend/books/ || icon-tubiaozhizuomoban-
+  留 言 板: /comments/ || icon-xiangsufeng_xinfeng || fas fa-envelope
   社 交 || icon-guanyuwomen:
-    留 言 板: /social/comments/ || icon-xiangsufeng_xinfeng || fas fa-envelope
     Friends: /social/link/ || icon-lianjie || fas fa-link
-  About: /about/ || icon-guanyu
+    About: /about/ || icon-guanyu
 
 # 代码块相关配置
 highlight_theme: mac # darker # pale night # light # ocean # mac # mac light
 highlight_copy: true # 允许代码被复制
 highlight_shrink: false # 代码块默认折叠
 code_word_wrap: true # 代码换行
-highlight_height_limit: false # unit: px 限制代码块最大显示高度
+highlight_height_limit: 50 # unit: px 限制代码块最大显示高度
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -108,10 +108,10 @@ reward:
   enable: true
   coinAudio: https://assets.akilar.top@1.0.16/audio/coin.mp3
   QR_code:
-    - img: /img/wechat.jpg
+    - img: https://loveyy520.github.io/onlyy-assets/qrcodes/WeChat.png
       link:
       text: 微 信
-    - img: /img/alipay.jpg
+    - img: https://loveyy520.github.io/onlyy-assets/qrcodes/Alipay.png
       link:
       text: 支付宝
   CDN:
@@ -132,7 +132,7 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: true
+  lazyload: false
   count: true # Display comment count in top_img
   card_post_count: false # Display comment count in Home Page
 # Twikoo 评论系统
@@ -146,7 +146,7 @@ twikoo:
 toc:
   priority: 1
   post: true # 文章页是否显示 TOC
-  page: true # 普通页面是否显示 TOC
+  page: false # 普通页面是否显示 TOC
   number: true # 是否显示章节数
   expand: false # 是否展开 TOC
   style_simple: false # for post 简洁模式（侧边栏只显示 TOC, 只对文章页有效 ）
@@ -182,7 +182,7 @@ noticeOutdate:
 # 个人信息
 ## 头像
 avatar:
-  img: /img/avatar.png
+  img: https://loveyy520.github.io/onlyy-assets/icons/dst/Willow.png
   effect: false # 是否开启旋转动画infinity
 
 ## 社交主页
@@ -363,7 +363,7 @@ runtimeshow:
 # 图片格式 url(http://xxxxxx.com/xxx.jpg)
 # 颜色（HEX值/RGB值/颜色单词/渐变色)
 # 留空 不显示背景
-background: url(https://blog.onlyy.vip/img/Wendy.png)
+background: url(https://loveyy520.github.io/onlyy-assets/photos/dont-starve/bg_willow_victorian.png)
 
 ## 打字机效果
 # Typewriter Effect (打字效果)
@@ -505,6 +505,7 @@ inject:
     - <script src="https://blog.onlyy.vip/assets/scripts/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
+    - <script src="/onlyy-blog/assets/scripts/rain.js"></script>
 
 # algolia search
 algolia_search:
@@ -576,4 +577,4 @@ footer_beautify:
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
-  per_page: true
+  per_page: false
