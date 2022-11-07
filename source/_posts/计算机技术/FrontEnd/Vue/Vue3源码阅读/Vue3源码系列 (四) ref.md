@@ -13,9 +13,8 @@ keywords:
   - 源码
   - ref
 categories:
-  - 前端
-  - Vue3
   - [源码]
+  - [前端, Vue3]
 abbrlink: f1070434
 ---
 

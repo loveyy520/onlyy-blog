@@ -14,9 +14,8 @@ keywords:
   - reactive
   - readonly
 categories:
-  - 前端
-  - Vue3
   - [源码]
+  - [前端, Vue3]
 abbrlink: f9a32caf
 ---
 

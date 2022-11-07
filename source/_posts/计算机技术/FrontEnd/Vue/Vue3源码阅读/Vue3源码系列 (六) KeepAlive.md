@@ -14,9 +14,8 @@ keywords:
   - KeepAlive
   - keep-alive
 categories:
-  - 前端
-  - Vue3
   - [源码]
+  - [前端, Vue3]
 abbrlink: e80db997
 ---
 

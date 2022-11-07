@@ -164,7 +164,7 @@ pjax:
 live2d:
   enable: true # 开关插件版看板娘
   scriptFrom: local # 默认
-  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginRootPath: https://blog.onlyy.vip/live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
   pluginModelPath: assets/ # 模型文件相对与插件根目录路径
   # scriptFrom: jsdelivr # jsdelivr CDN
@@ -218,10 +218,10 @@ categoryBar:
     name: recent-posts
     index: 0
   column: odd # odd：3列 | even：4列
-  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  row: #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: Ubuntu指南
-      cover: https://assets.akilar.top/image/cover1.webp
+      cover: https://assets.onlyy.vip/photos/
     - descr: 玩转Win10
       cover: https://assets.akilar.top/image/cover2.webp
     - descr: 长篇小说连载
@@ -292,42 +292,42 @@ swiper:
 # git 提交日历
 # hexo-filter-gitcalendar
 # see https://akilar.top/posts/1f9c68c9/
-gitcalendar:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  enable_page: / # 应用页面
-  # butterfly挂载容器
-  layout: # 挂载容器类型
-    type: id
-    name: recent-posts
-    index: 0
-  # volantis挂载容器
-  # layout:
-  #   type: class
-  #   name: l_main
-  #   index: 0
-  # matery挂载容器
-  # layout:
-  #   type: id
-  #   name: indexCard
-  #   index: 0
-  # mengd挂载容器
-  # layout:
-  #   type: class
-  #   name: content
-  #   index: 0
-  user: loveyy520 #git用户名
-  apiurl: git-calendar.onlyy.vip # 自建一个API
-  minheight:
-    pc: 280px #桌面端最小高度
-    mibile: 0px #移动端最小高度
-  color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06']" #橘黄色调
-  # color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #浅紫色调
-  # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
-  # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
-  container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
-  gitcalendar_css: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css
-  gitcalendar_js: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js
+# gitcalendar:
+#   enable: true # 开关
+#   priority: 5 #过滤器优先权
+#   enable_page: / # 应用页面
+#   # butterfly挂载容器
+#   layout: # 挂载容器类型
+#     type: id
+#     name: recent-posts
+#     index: 0
+#   # volantis挂载容器
+#   # layout:
+#   #   type: class
+#   #   name: l_main
+#   #   index: 0
+#   # matery挂载容器
+#   # layout:
+#   #   type: id
+#   #   name: indexCard
+#   #   index: 0
+#   # mengd挂载容器
+#   # layout:
+#   #   type: class
+#   #   name: content
+#   #   index: 0
+#   user: loveyy520 #git用户名
+#   apiurl: git-calendar.onlyy.vip # 自建一个API
+#   minheight:
+#     pc: 280px #桌面端最小高度
+#     mibile: 0px #移动端最小高度
+#   color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06']" #橘黄色调
+#   # color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #浅紫色调
+#   # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
+#   # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
+#   container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
+#   gitcalendar_css: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css
+#   gitcalendar_js: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js
 
 # 侧边时钟
 # electric_clock
@@ -391,7 +391,7 @@ magnet:
     type: id
     name: recent-posts
     index: 0
-  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><a class="magnet_link_more" href="./articals/categories" style="flex:1;text-align: center;margin-bottom: 10px;" one-link-mark="yes">更多...</a></div></div>'
   plus_style: ""
 
 # 音乐播放器插件

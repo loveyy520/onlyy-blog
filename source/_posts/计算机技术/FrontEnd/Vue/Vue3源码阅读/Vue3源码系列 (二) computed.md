@@ -13,9 +13,8 @@ keywords:
   - 源码
   - computed
 categories:
-  - 前端
-  - Vue3
   - [源码]
+  - [前端, Vue3]
 abbrlink: 16fef359
 cover: https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png
 ---
