@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/relax/games/</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/dont-starve/</loc>
+    
+    <lastmod>2022-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://loveyy520.github.io/onlyy-blog/articals/archives/</loc>
     
     <lastmod>2022-11-07</lastmod>
@@ -38,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/</loc>
-    
-    <lastmod>2022-11-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://loveyy520.github.io/onlyy-blog/relax/movies/</loc>
     
     <lastmod>2022-11-07</lastmod>
@@ -65,34 +83,7 @@
   </url>
   
   <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/relax/games/</loc>
-    
-    <lastmod>2022-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/ohmygirl/</loc>
-    
-    <lastmod>2022-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/wallpaper/</loc>
-    
-    <lastmod>2022-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/relax/photos/marvel/</loc>
     
     <lastmod>2022-11-06</lastmod>
     
@@ -412,13 +403,6 @@
   </url>
   
   <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/TypeScript/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/Vue3/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -432,6 +416,48 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/TypeScript/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E5%89%8D%E7%AB%AF/JavaScript/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/Vue3/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E5%89%8D%E7%AB%AF/TypeScript/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E6%BA%90%E7%A0%81/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
