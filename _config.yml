@@ -17,7 +17,7 @@ timezone: "Asia/Shanghai"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://loveyy520.github.io/onlyy-blog
-root: /onlyy-blog/
+root:
 permalink: articals/:abbrlink/
 permalink_defaults:
 # abbrlink config
@@ -408,7 +408,7 @@ douban:
     quote: "豆瓣读书个人清单，不提供站内阅读功能"
     meta: true
     comments: true
-    top_img: https://loveyy520.github.io/onlyy-blog/img/Wendy.png
+    top_img: https://assets.onlyy.vip/onlyy-blog/img/Wendy.png
     aside: true
     path: recommend/books
     limit:

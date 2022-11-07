@@ -76,7 +76,7 @@ cover:
   position: both
   # 当没有设置cover时，默认的封面显示
   ## 可以写列表放多张图片，系统会随机选取之一
-  default_cover: https://blog.onlyy.vip/img/Wendy.png
+  default_cover: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
 
 # 文章元信息
 post_meta:
@@ -116,13 +116,13 @@ reward:
       text: 支付宝
   CDN:
     # main
-    main_css: /css/index.css
+    main_css: https://blog.onlyy.vip/css/index.css
     jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js
-    main: /js/main.js
-    utils: /js/utils.js
+    main: https://blog.onlyy.vip/js/main.js
+    utils: https://blog.onlyy.vip/js/utils.js
     # 打赏按钮投币效果
-    coin_js: /js/coin.js
-    coin_css: /css/coin.css
+    coin_js: https://blog.onlyy.vip/js/coin.js
+    coin_css: https://blog.onlyy.vip/css/coin.css
 
 # comments 评论设置
 comments:
@@ -182,7 +182,7 @@ noticeOutdate:
 # 个人信息
 ## 头像
 avatar:
-  img: https://asssets.onlyy.vip/icons/dst/Willow.png
+  img: https://assets.onlyy.vip/icons/dst/Willow.png
   effect: false # 是否开启旋转动画infinity
 
 ## 社交主页
