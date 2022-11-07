@@ -403,6 +403,13 @@
   </url>
   
   <url>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/TypeScript/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/Vue3/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -411,13 +418,6 @@
   
   <url>
     <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/articals/tags/TypeScript/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -440,14 +440,14 @@
   </url>
   
   <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/Vue3/</loc>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E5%89%8D%E7%AB%AF/TypeScript/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/%E5%89%8D%E7%AB%AF/TypeScript/</loc>
+    <loc>https://loveyy520.github.io/onlyy-blog/articals/categories/Vue3/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
