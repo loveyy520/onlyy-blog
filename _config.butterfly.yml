@@ -13,7 +13,7 @@ menu:
     音 乐: /relax/music/ || icon-yinle || fa fa-camera || faa-tada
     影 视: /relax/movies/ || icon-dianying || fas fa-video
     游 戏: /relax/games/ || icon-youxi
-    图 库: /relax/photos/ || icon-dianying
+    纪念册: /relax/photos/ || icon-dianying
   空 间 || icon-kongjian1:
     LoveStory: /zone/love-story/ || icon-guanai-aixin
     Work&Life: /zone/work-life/ || icon-shenghuo
@@ -495,17 +495,17 @@ instantpage: true
 inject:
   head:
     # 注入自定义的css
-    - <link rel="stylesheet" href="https://blog.onlyy.vip/css/custom.css">
+    - <link rel="stylesheet" href="https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/custom.css">
     # 百度收录验证
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
   bottom:
     # iconfont
     - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
     # 加载进度条
-    - <script src="https://blog.onlyy.vip/assets/scripts/progress-bar.js"></script>
+    - <script src="https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
-    - <script src="/onlyy-blog/assets/scripts/rain.js"></script>
+    - <script src="https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/rain.js"></script>
 
 # algolia search
 algolia_search:
@@ -546,8 +546,8 @@ footer_beautify:
     index: 0
   # 计时器部分配置项（看你喜欢哪个，最好下载下来放到自己的项目中不然会增加我网站的负载）
   # 这是我的
-  runtime_js: https://blog.onlyy.vip/assets/scripts/footerTimer.js
-  runtime_css: https://blog.onlyy.vip/css/footerTimer.css
+  runtime_js: https://loveyy520.github.io/onlyy-assets/js/onlyy-blog/footerTimer.js
+  runtime_css: https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/footerTimer.css
   # 这是店长的
   # runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
   # runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
