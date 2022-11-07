@@ -16,8 +16,8 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://loveyy520.github.io/onlyy-blog
-root:
+url: https://loveyy520.github.io/onlyy-blog/
+root: /
 permalink: articals/:abbrlink/
 permalink_defaults:
 # abbrlink config
