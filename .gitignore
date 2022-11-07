@@ -1,4 +1,4 @@
 
 node_modules
-# public
-# .deploy_git
+public
+.deploy_git
