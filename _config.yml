@@ -184,7 +184,8 @@ live2d:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg # 信笺头部图片
+    # cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg # 信笺头部图片
+    cover: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png # 信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
@@ -388,7 +389,6 @@ butterfly_article_double_row:
 #   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><a class="magnet_link_more" href="/articals/categories" style="flex:1;text-align: center;margin-bottom: 10px;" one-link-mark="yes">更多分类...</a></div></div>'
 #   plus_style: ""
 
-
 # 音乐播放器插件
 aplayer:
   meting: true
@@ -446,23 +446,27 @@ all_minifier: true
 encrypt:
   pwdfile: encrypt_password # this store the password in a file, the whole content of this file will be regarded as the password
   password: 19990608 # this set password here
-  replace_all_url: false # this will replace img url in all posts
+  replace_all_url: true # this will replace img url in all posts
   base_url: https://assets.onlyy.vip/photos/dont-starve/ # this will connect with you img url in you post, except full url(start with http://)
   qiniu_ak: al200vzS1MXFFjYDsgaxeu1dxZPTuKMTEeNTGje4
   qiniu_sk: ayQdDabcjO1ZQjdCW9Rl6wrE0WruWePF0ktDsDyl
   img_url_ttl: 3600 # 3600 second, the ttl for qiniu img url
   type: qiniu # or base64, if base64, the base_url, qiniu_ak, qiniu_sk and img_url_ttl is unnecessary
-  template: ' <h1>本页面不对外公开哦, 需要密码才能阅读~</h1>
-              <h2>ps: 如果是你的话,应该能猜到这个8位数密码。</h2>
-              <input type="text" style="text-align: center;border-radius: 5px;border-style: groove;height: 30px;width: 100px;cursor: auto;font-size: 100%;font-weight: 700;margin: 0 20px 0 30%;color: #137cbd;box-shadow: #182026 1px 1px 3px;border:none;outline: none;outline: none;text-overflow: initial;">  
-              <input type="submit" value="确 定" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: #13b3ff;box-shadow: #182026 1px 1px 3px;border: none;color: white;"> 
-			        <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div>
-              <script> 
-                const onError = function(error) { 
-                  document.getElementById("enc_error").innerHTML = "密码不对啦！偷看别人隐私是不礼貌的哦~"; 
-                };
-                function decrypt() { 
-                  const passwd = document.querySelector("#enc_passwd input").value; 
-                  doDecrypt(passwd, onError); 
-                }
-              </script>'  # optional, it's html template include html and js. in js, you should call doDecrypt(password, onErrorCallbackFunc) with you password
+  template: '
+    <h1>本页面不对外公开哦, 需要密码才能阅读~</h1>
+    <h2>ps: 如果是你的话,应该能猜到这个8位数密码。</h2>
+    <input type="text" autofocus style="text-align: center;border-radius: 5px;border-style: groove;height: 30px;width: 100px;cursor: auto;font-size: 100%;font-weight: 700;margin: 0 20px 0 30%;color: #137cbd;box-shadow: #182026 1px 1px 3px;border:none;outline: none;outline: none;text-overflow: initial;">
+    <input type="submit" value="确 定" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: #13b3ff;box-shadow: #182026 1px 1px 3px;border: none;color: white;">
+    <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div>
+    <script>
+    const onError = function(error) {
+    document.getElementById("enc_error").innerHTML = "密码不对啦！偷看别人隐私是不礼貌的哦~";
+    };
+    function decrypt() {
+    const passwd = document.querySelector("#enc_passwd input").value;
+    doDecrypt(passwd, onError);
+    }
+    </script>
+    '
+# optional, it's html template include html and js. in js, you should call doDecrypt(password, onErrorCallbackFunc) with you password
+
