@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.onlyy.vip/zone/love-story/</loc>
+    
+    <lastmod>2022-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onlyy.vip/relax/games/</loc>
     
-    <lastmod>2022-11-07</lastmod>
+    <lastmod>2022-11-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -102,15 +111,6 @@
   
   <url>
     <loc>https://blog.onlyy.vip/zone/work-life/</loc>
-    
-    <lastmod>2022-11-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onlyy.vip/zone/love-story/</loc>
     
     <lastmod>2022-11-05</lastmod>
     
@@ -380,7 +380,7 @@
 
   
   <url>
-    <loc>https://blog.onlyy.vip/articals/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://blog.onlyy.vip/articals/tags/%E5%89%8D-%E7%AB%AF/</loc>
     <lastmod>2022-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -395,6 +395,13 @@
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/TypeScript/</loc>
+    <lastmod>2022-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onlyy.vip/articals/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
