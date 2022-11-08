@@ -3,7 +3,7 @@ title: JS 温故(一)：script 标签
 date: "2022-05-29 14:15"
 updated: "2022-03-23 14:15"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

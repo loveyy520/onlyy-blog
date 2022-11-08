@@ -3,7 +3,7 @@ title: js温故(二)：symbol
 date: "2022-06-19 03:24"
 updated: "2022-06-19 03:24"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

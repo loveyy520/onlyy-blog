@@ -3,7 +3,7 @@ title: TypeScript 系列 进阶篇 (七) 声明文件 -- 从编写到发布
 date: "2022-03-23 17:09"
 updated: "2022-03-23 17:09"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

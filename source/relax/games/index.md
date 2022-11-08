@@ -1,5 +1,6 @@
 ---
-title: Onlyy 小游戏🕸
+title: Onlyy 小游戏 🕸
+top_img: https://assets.onlyy.vip/photos/dont-starve/bg_goats.png
 ---
 
 <link rel="stylesheet" href="https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/games.css"></link>

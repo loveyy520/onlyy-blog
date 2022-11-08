@@ -3,7 +3,7 @@ title: TypeScript系列 进阶篇 (五) Namespaces
 date: "2022-03-14 17:11"
 updated: "2022-03-14 17:11"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

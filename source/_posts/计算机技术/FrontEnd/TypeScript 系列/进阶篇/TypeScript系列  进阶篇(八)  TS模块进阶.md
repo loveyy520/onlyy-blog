@@ -3,7 +3,7 @@ title: TypeScript系列  进阶篇(八)  TS模块进阶
 date: "2022-03-28 18:02"
 updated: "2022-03-28 18:02"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

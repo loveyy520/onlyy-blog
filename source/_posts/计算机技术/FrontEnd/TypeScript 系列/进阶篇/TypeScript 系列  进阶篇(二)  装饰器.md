@@ -3,7 +3,7 @@ title: TypeScript 系列  进阶篇(二)  装饰器
 date: "2022-03-07 16:03"
 updated: "2022-03-07 16:03"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

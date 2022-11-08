@@ -3,7 +3,7 @@ title: JS笔记：函数式编程
 date: "2022-04-09 22:24"
 updated: "2022-04-09 22:24"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

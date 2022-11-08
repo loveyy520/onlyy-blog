@@ -9,7 +9,7 @@ keywords:
   - 对象
 tags:
   - TypeScript
-  - 前端
+  - 前 端
 categories:
   - 前端
   - TypeScript

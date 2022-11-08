@@ -16,7 +16,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://loveyy520.github.io/onlyy-blog/
+url: https://blog.onlyy.vip/
 root: /
 permalink: articals/:abbrlink/
 permalink_defaults:
@@ -52,7 +52,7 @@ skip_render:
 # 给归档 换个 名字
 archive_title: 时光机🍭
 
-# Writing
+# 文章设置
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 auto_spacing: true
@@ -99,12 +99,6 @@ tag_map:
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
-
-# ERROR_PAGE
-error_404:
-  enable: true
-  subtitle: "页面走丢啦 ~"
-  background: https://blog.onlyy.vip/img/404.jpg
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -164,7 +158,7 @@ pjax:
 live2d:
   enable: true # 开关插件版看板娘
   scriptFrom: local # 默认
-  pluginRootPath: https://blog.onlyy.vip/live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
   pluginModelPath: assets/ # 模型文件相对与插件根目录路径
   # scriptFrom: jsdelivr # jsdelivr CDN
@@ -174,8 +168,8 @@ live2d:
   debug: false # 调试, 是否在控制台输出日志
   model:
     ## 需要安装对应的模型 live2d-widget-model-shizuku / live2d-widget-model-nico
-    use: live2d-widget-model-wanko # npm-module package name
-    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: live2d-widget-model-shizuku # npm-module package name
+    use: shizuku # 根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
     # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
@@ -220,18 +214,18 @@ categoryBar:
   column: odd # odd：3列 | even：4列
   row: #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: Ubuntu指南
-      cover: https://assets.onlyy.vip/photos/
-    - descr: 玩转Win10
-      cover: https://assets.akilar.top/image/cover2.webp
-    - descr: 长篇小说连载
-      cover: https://assets.akilar.top/image/cover3.webp
-    - descr: 个人日记
-      cover: https://assets.akilar.top/image/cover4.webp
-    - descr: 诗词歌赋
-      cover: https://assets.akilar.top/image/cover5.webp
+    - descr: 前端杂烩
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
+    - descr: JS浅析
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_goats.png
+    - descr: TS基础与进阶
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_pigking.png
+    - descr: 一起读源码
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_webber_feast.png
+    - descr: 2022 Vue3上新
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_wilson_madscience.png
     - descr: 杂谈教程
-      cover: https://assets.akilar.top/image/cover6.webp
+      cover: https://assets.onlyy.vip/photos/dont-starve/bg_woodie_victorian.png
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
 # 外挂标签
@@ -408,7 +402,7 @@ douban:
     quote: "豆瓣读书个人清单，不提供站内阅读功能"
     meta: true
     comments: true
-    top_img: https://assets.onlyy.vip/onlyy-blog/img/Wendy.png
+    top_img: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
     aside: true
     path: recommend/books
     limit:
@@ -417,7 +411,7 @@ douban:
     quote: "豆瓣电影个人清单，不提供站内观影功能~"
     meta: true
     comments: true
-    top_img: https://loveyy520.github.io/onlyy-blog/img/Wendy.png
+    top_img: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
     aside: true
     path: recommend/movies
     limit:
@@ -445,3 +439,30 @@ path: baidusitemap.xml
 
 # 启用压缩插件
 all_minifier: true
+
+# 文章访问密码配置
+# encrypt
+encrypt:
+  pwdfile: encrypt_password # this store the password in a file, the whole content of this file will be regarded as the password
+  password: 19990608 # this set password here
+  replace_all_url: true # this will replace img url in all posts
+  base_url: https://assets.onlyy.vip/photos/dont-starve/ # this will connect with you img url in you post, except full url(start with http://)
+  qiniu_ak: al200vzS1MXFFjYDsgaxeu1dxZPTuKMTEeNTGje4
+  qiniu_sk: ayQdDabcjO1ZQjdCW9Rl6wrE0WruWePF0ktDsDyl
+  img_url_ttl: 3600 # 3600 second, the ttl for qiniu img url
+  type: qiniu # or base64, if base64, the base_url, qiniu_ak, qiniu_sk and img_url_ttl is unnecessary
+  template: ' <h1>本页面不对外公开哦, 需要密码才能阅读~</h1>
+              <h2>ps: 如果是你的话,应该能猜到这个8位数密码。</h2>
+              <input type="text" style="text-align: center;border-radius: 5px;border-style: groove;height: 30px;width: 100px;cursor: auto;font-size: 100%;font-weight: 700;margin: 0 20px 0 30%;color: #137cbd;box-shadow: #182026 1px 1px 3px;border:none;outline: none;outline: none;text-overflow: initial;">  
+              <input type="submit" value="确 定" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: #13b3ff;box-shadow: #182026 1px 1px 3px;border: none;color: white;"> 
+			        <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div>
+              <script> 
+                const onError = function(error) { 
+                  document.getElementById("enc_error").innerHTML = "密码不对啦！偷看别人隐私是不礼貌的哦~"; 
+                };
+                function decrypt() { 
+                  const passwd = document.querySelector("#enc_passwd input").value; 
+                  doDecrypt(passwd, onError); 
+                }
+              </script>'  # optional, it's html template include html and js. in js, you should call doDecrypt(password, onErrorCallbackFunc) with you password
+

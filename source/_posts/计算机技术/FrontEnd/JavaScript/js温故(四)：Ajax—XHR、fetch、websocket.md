@@ -3,7 +3,7 @@ title: js温故(四)：Ajax—XHR、fetch、websocket
 date: "2022-07-05 01:24"
 updated: "2022-07-05 01:24"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

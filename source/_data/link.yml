@@ -1,13 +1,30 @@
 - class_name: 1.技术支持
-  class_desc: 本站基于Hexo框架搭建
+  class_desc: 基于Hexo搭建, 过程参考了包括但不限于以下作者的文章。
   link_list:
     - name: Hexo
       link: https://hexo.io.zh-cn/
-      avatar: https://d33wubrfki0168.cloudfront.net/6657ba50e702d84afb32fe846bed54fbala77add/827ae/logo.svg
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: Hexo静态博客框架
+    - name: Jerry
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: butterfly 主题作者
+    - name: Hexo 插件
+      link: https://hexo.io/plugins/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: Hexo官方推荐的插件, 内容丰富。
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 糖果屋店长，具有丰富的博客魔改经验。
+    - name: Fomalhaut
+      link: https://fomal.cc
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Fomalhaut, B站的视频启发我用现有的博客框架来搭建博客。
 - class_name: 2.友情链接
   class_desc: With friends ~
   link_list:
-    - name: Fomalhaut
-      link: https://fomal.cc
-      avatar: /assets/head.jpg
-      siteshot: https://source.fomal.cc/siteshot/wwww.fomal.cc.jpg
+    - name: ChrisLey
+      link: blog.onlyy.vip
+      avatar: https://assets.onlyy.vip/icons/dst/Willow.png
+      descr: 我。原本想用Vue3或React定制个人博客, 出于时间和服务器考虑, 最终还是选用了Hexo博客框架。

@@ -3,7 +3,7 @@ title: js温故(三)：ES5 的对象与继承
 date: "2022-07-01 14:22"
 updated: "2022-07-01 14:22"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

@@ -3,7 +3,7 @@ title: JS笔记之Promise进阶：从A+规范到手动实现
 date: "2022-02-26 19:58"
 updated: "2022-02-26 19:58"
 tags:
-  - 前端
+  - 前 端
   - JavaScript
 keywords:
   - 前端

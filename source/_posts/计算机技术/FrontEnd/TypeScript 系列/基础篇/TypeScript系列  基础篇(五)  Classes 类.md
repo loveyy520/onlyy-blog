@@ -1,7 +1,7 @@
 ---
 title: TypeScript系列  基础篇(五)  Classes 类
-date: '2022-03-05 01:07'
-updated: '2022-03-05 01:07'
+date: "2022-03-05 01:07"
+updated: "2022-03-05 01:07"
 keywords:
   - 前端
   - TypeScript
@@ -9,7 +9,7 @@ keywords:
   - Class
 tags:
   - TypeScript
-  - 前端
+  - 前 端
 categories:
   - 前端
   - TypeScript

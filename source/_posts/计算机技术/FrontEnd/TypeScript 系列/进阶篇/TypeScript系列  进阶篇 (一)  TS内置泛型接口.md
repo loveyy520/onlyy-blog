@@ -1,9 +1,9 @@
 ---
 title: TypeScript 系列 进阶篇 (一) TS 内置泛型接口
-date: '2022-03-05 17:47'
-updated: '2022-03-05 17:47'
+date: "2022-03-05 17:47"
+updated: "2022-03-05 17:47"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

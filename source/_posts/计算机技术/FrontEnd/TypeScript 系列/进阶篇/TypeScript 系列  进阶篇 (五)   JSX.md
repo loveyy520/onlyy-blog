@@ -3,7 +3,7 @@ title: TypeScript 系列 进阶篇 (四) JSX
 date: "2022-03-11 15:27"
 updated: "2022-03-11 15:27"
 tags:
-  - 前端
+  - 前 端
   - TypeScript
 keywords:
   - 前端

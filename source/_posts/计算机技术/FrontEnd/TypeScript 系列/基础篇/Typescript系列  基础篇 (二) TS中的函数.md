@@ -1,9 +1,9 @@
 ---
 title: Typescript 系列基础篇(二) TS 中的函数
-date: '2022-03-02 00:46'
-updated: '2022-03-02 00:46'
+date: "2022-03-02 00:46"
+updated: "2022-03-02 00:46"
 keywords:
-  - 前端
+  - 前 端
   - TypeScript
   - TS
   - 类型
