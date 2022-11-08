@@ -479,8 +479,9 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Onlyy with you!🥝"
-    - "Wish u have fun!🍭🍭🍭"
+    - 你在的地方下雨了吗🍒
+    - 今天也要开心吖🍭🍭🍭
+    - Onlyy with you!🥝
 
 # 加载动画 Loading Animation
 preloader:
