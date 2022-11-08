@@ -3,7 +3,7 @@ title: Onlyy 小游戏 🕸
 top_img: https://assets.onlyy.vip/photos/dont-starve/bg_goats.png
 ---
 
-<link rel="stylesheet" href="https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/games.css"></link>
+<link rel="stylesheet" href="https://assets.onlyy.vip/styles/onlyy-blog/games.css"></link>
 
 ## 游戏
 

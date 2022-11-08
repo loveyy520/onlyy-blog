@@ -446,7 +446,7 @@ all_minifier: true
 encrypt:
   pwdfile: encrypt_password # this store the password in a file, the whole content of this file will be regarded as the password
   password: 19990608 # this set password here
-  replace_all_url: true # this will replace img url in all posts
+  replace_all_url: false # this will replace img url in all posts
   base_url: https://assets.onlyy.vip/photos/dont-starve/ # this will connect with you img url in you post, except full url(start with http://)
   qiniu_ak: al200vzS1MXFFjYDsgaxeu1dxZPTuKMTEeNTGje4
   qiniu_sk: ayQdDabcjO1ZQjdCW9Rl6wrE0WruWePF0ktDsDyl
@@ -466,15 +466,3 @@ encrypt:
                   doDecrypt(passwd, onError); 
                 }
               </script>'  # optional, it's html template include html and js. in js, you should call doDecrypt(password, onErrorCallbackFunc) with you password
-
-# 隐藏文章 插件配置
-# hexo-hide-posts
-# hide_posts:
-#   enable: true
-#   # 可以改成其他你喜欢的名字，指定front-matter中哪个字段用于表示隐藏
-#   filter: secret
-#   # 指定隐藏的文章在哪些页面可见
-#   # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
-#   public_generators: [tag, catagory, archive, LoveStory]
-#   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
-#   noindex: true

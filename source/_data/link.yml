@@ -1,5 +1,5 @@
 - class_name: 1.技术支持
-  class_desc: 基于Hexo搭建, 过程参考了包括但不限于以下作者的文章。
+  class_desc: 本站基于Hexo搭建, 过程中参考了包括但不限于以下作者的文章。
   link_list:
     - name: Hexo
       link: https://hexo.io.zh-cn/

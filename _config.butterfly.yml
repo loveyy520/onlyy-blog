@@ -188,6 +188,7 @@ avatar:
 ## 社交主页
 social:
   Github: https://github.com/loveyy520 || icon-github1
+  知乎: https://www.zhihu.com/people/li-shi-lin-85-69 || icon-shejiaotubiao-46
   Email: mailto:201357337@qq.com || icon-email
 
 ## 顶部图
@@ -303,7 +304,7 @@ aside:
       link: https://github.com/loveyy520
   card_announcement:
     enable: false
-    content: <center>主域名：<br><a href="https://loveyy520.github.io/onlyy-blog"><b><font color="#5ea6e5">loveyy520.github.io</font></b></a>&nbsp;|&nbsp;<a href="https://blog.onlyy.vip"><b><font color="#5ea6e5">blog.onlyy.vip</font></b></a><br><a href="mailto:201357337@qq.com@fomal.cn">📬：<b><font color="#a591e0">201357337@qq.com</font></b></a></center>
+    content: <center>在这里：<br><a href="https://assets.onlyy.vip/"><b><font color="#5ea6e5">assets.onlyy.vip/</font></b></a>&nbsp;|&nbsp;<a href="https://blog.onlyy.vip"><b><font color="#5ea6e5">blog.onlyy.vip</font></b></a><br><a href="mailto:201357337@qq.com@fomal.cn">📬：<b><font color="#a591e0">201357337@qq.com</font></b></a></center>
     sort_order: 10
     exclude:
       - /post/
@@ -512,7 +513,7 @@ instantpage: true
 inject:
   head:
     # 注入自定义的css，由于vercel托管的找不到css文件，暂时用github
-    - <link rel="stylesheet" href="https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/custom.css">
+    - <link rel="stylesheet" href="https://assets.onlyy.vip/styles/onlyy-blog/custom.css">
     # 百度收录验证
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
   bottom:
@@ -522,6 +523,7 @@ inject:
     - <script src="https://assets.onlyy.vip/js/onlyy-blog/progress-bar.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
+    # 下雨效果
     - <script src="https://assets.onlyy.vip/js/onlyy-blog/rain.js"></script>
 
 # algolia search
@@ -565,7 +567,7 @@ footer_beautify:
   # 这是我的
   runtime_js: https://assets.onlyy.vip/js/onlyy-blog/footerTimer.js
   ## vercel 托管的找不到css文件，暂时沿用github托管的css
-  runtime_css: https://loveyy520.github.io/onlyy-assets/styles/onlyy-blog/footerTimer.css
+  runtime_css: https://assets.onlyy.vip/styles/onlyy-blog/footerTimer.css
   # 这是店长的
   # runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
   # runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
