@@ -25,6 +25,6 @@
   class_desc: With friends ~
   link_list:
     - name: ChrisLey
-      link: blog.onlyy.vip
+      link: https://blog.onlyy.vip
       avatar: https://assets.onlyy.vip/icons/dst/Willow.png
       descr: 我。原本想用Vue3或React定制个人博客, 出于时间和服务器考虑, 最终还是选用了Hexo博客框架。
