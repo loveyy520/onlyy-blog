@@ -349,44 +349,45 @@ electric_clock:
 butterfly_article_double_row:
   enable: false
 
-# 分类磁贴
+# 分类磁贴 首页显示有问题  暂时取消
 ## ! dark-mode 暂未适配
-magnet:
-  enable: true
-  priority: 1
-  enable_page: /
-  type: categories
-  devide: 2
-  display:
-    - name: 教程
-      display_name: 小冰の魔改教程
-      icon: 📚
-    - name: 游戏评测
-      display_name: 小冰の游戏评测
-      icon: 🎮
-    - name: 生活趣闻
-      display_name: 小冰の生活趣闻
-      icon: 🐱‍👓
-    - name: vue
-      display_name: 小冰の编程学习
-      icon: 👩‍💻
-    - name: 学习
-      display_name: 小冰の读书笔记
-      icon: 📒
-    - name: 随想
-      display_name: 小冰の胡思乱想
-      icon: 💡
-  color_setting:
-    text_color: black
-    text_hover_color: white
-    background_color: "#f2f2f2"
-    background_hover_color: "#b30070"
-  layout:
-    type: id
-    name: recent-posts
-    index: 0
-  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><a class="magnet_link_more" href="./articals/categories" style="flex:1;text-align: center;margin-bottom: 10px;" one-link-mark="yes">更多...</a></div></div>'
-  plus_style: ""
+# magnet:
+#   enable: true
+#   priority: 1
+#   enable_page: /
+#   type: categories
+#   devide: 2
+#   display:
+#     - name: 教程
+#       display_name: 小冰の魔改教程
+#       icon: 📚
+#     - name: 游戏评测
+#       display_name: 小冰の游戏评测
+#       icon: 🎮
+#     - name: 生活趣闻
+#       display_name: 小冰の生活趣闻
+#       icon: 🐱‍👓
+#     - name: vue
+#       display_name: 小冰の编程学习
+#       icon: 👩‍💻
+#     - name: 学习
+#       display_name: 小冰の读书笔记
+#       icon: 📒
+#     - name: 随想
+#       display_name: 小冰の胡思乱想
+#       icon: 💡
+#   color_setting:
+#     text_color: black
+#     text_hover_color: white
+#     background_color: "#f2f2f2"
+#     background_hover_color: "#b30070"
+#   layout:
+#     type: id
+#     name: recent-posts
+#     index: 0
+#   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><a class="magnet_link_more" href="/articals/categories" style="flex:1;text-align: center;margin-bottom: 10px;" one-link-mark="yes">更多分类...</a></div></div>'
+#   plus_style: ""
+
 
 # 音乐播放器插件
 aplayer:
@@ -398,8 +399,8 @@ douban:
   user: 264246084
   builtin: true
   book:
-    title: 书籍清单
-    quote: "豆瓣读书个人清单，不提供站内阅读功能"
+    title: 书籍 | 清单
+    quote: "豆瓣读书个人清单，不提供站内阅读功能~"
     meta: true
     comments: true
     top_img: https://assets.onlyy.vip/photos/dont-starve/bg_wendy_victorian.png
@@ -407,7 +408,7 @@ douban:
     path: recommend/books
     limit:
   movie:
-    title: "影视清单"
+    title: "影视 | 清单"
     quote: "豆瓣电影个人清单，不提供站内观影功能~"
     meta: true
     comments: true
@@ -466,3 +467,14 @@ encrypt:
                 }
               </script>'  # optional, it's html template include html and js. in js, you should call doDecrypt(password, onErrorCallbackFunc) with you password
 
+# 隐藏文章 插件配置
+# hexo-hide-posts
+# hide_posts:
+#   enable: true
+#   # 可以改成其他你喜欢的名字，指定front-matter中哪个字段用于表示隐藏
+#   filter: secret
+#   # 指定隐藏的文章在哪些页面可见
+#   # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
+#   public_generators: [tag, catagory, archive, LoveStory]
+#   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+#   noindex: true

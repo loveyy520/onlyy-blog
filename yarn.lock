@@ -484,6 +484,16 @@
   "resolved" "https://registry.npmjs.org/builtins/-/builtins-1.0.3.tgz"
   "version" "1.0.3"
 
+"bunyan@^1.5.1":
+  "integrity" "sha512-0tECWShh6wUysgucJcBAoYegf3JJoZWibxdqhTm7OHPeT42qdjkZ29QCMcKwbgU1kiH+auSIasNRXMLWXafXig=="
+  "resolved" "https://registry.npmjs.org/bunyan/-/bunyan-1.8.15.tgz"
+  "version" "1.8.15"
+  optionalDependencies:
+    "dtrace-provider" "~0.8"
+    "moment" "^2.19.3"
+    "mv" "~2"
+    "safe-json-stringify" "~1"
+
 "bytes@3.0.0":
   "integrity" "sha512-pMhOfFDPiv9t5jjIXkHosWmkSyQbvsgEVNkz0ERHbuLh2T/7j4Mqqpz523Fe8MVY89KC6Sh/QfS2sM+SjgFDcw=="
   "resolved" "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
@@ -630,6 +640,14 @@
     "supports-color" "^7.1.0"
 
 "chalk@^4.0.2":
+  "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+  "resolved" "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
+  "version" "4.1.2"
+  dependencies:
+    "ansi-styles" "^4.1.0"
+    "supports-color" "^7.1.0"
+
+"chalk@^4.1.2":
   "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
   "resolved" "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   "version" "4.1.2"
@@ -1280,6 +1298,13 @@
   "version" "4.2.1"
   dependencies:
     "is-obj" "^1.0.0"
+
+"dtrace-provider@~0.8":
+  "integrity" "sha512-b7Z7cNtHPhH9EJhNNbbeqTcXB8LGFFZhq1PGgEvpeHlzd36bhbdTWoE/Ba/YguqpBSlAPKnARWhVlhunCMwfxg=="
+  "resolved" "https://registry.npmjs.org/dtrace-provider/-/dtrace-provider-0.8.8.tgz"
+  "version" "0.8.8"
+  dependencies:
+    "nan" "^2.14.0"
 
 "duplexer3@^0.1.4":
   "integrity" "sha512-1A8za6ws41LQgv9HrE/66jyC5yuSjQ3L/KOpFtoBilsAK2iA2wuS5rTt1OCzIvtS2V7nVmedsUU+DGRcjBmOYA=="
@@ -2066,15 +2091,15 @@
     "moment" "^2.18.0"
     "nunjucks" "^3.2.1"
 
-"hexo-encrypt@^0.5.5":
-  "integrity" "sha512-Amr9bslte5R5qBWTXTFMK2iGXAFfIS/nAQ/ByLoaVjuxaS6plVOWbbS12k6eU1VNY+Y9zaPjIiOBO6qNfHhzEQ=="
-  "resolved" "https://registry.npmjs.org/hexo-encrypt/-/hexo-encrypt-0.5.5.tgz"
-  "version" "0.5.5"
+"hexo-encrypt@^0.2.0":
+  "integrity" "sha512-WWbDYmw/D8334O+OUp14Do238gWV/Js0dcyfCM1NylXTR6B0yeq4c6avqUCsCc+SjK/4pXXns0RE9WU/BW90Ww=="
+  "resolved" "https://registry.npmjs.org/hexo-encrypt/-/hexo-encrypt-0.2.1.tgz"
+  "version" "0.2.1"
   dependencies:
     "crypto-js" "^3.1.6"
-    "hexo-fs" "^0.2.1"
-    "hexo-log" "^0.2.0"
-    "qiniu" "^6.1.13"
+    "hexo-fs" "^0.1.5"
+    "hexo-log" "^0.1.2"
+    "qiniu" "^6.1.11"
 
 "hexo-filter-gitcalendar@^1.0.9":
   "integrity" "sha512-BoA8LYt6PmxksKgDwkvJvHyOjgBdTdwI5Bcluw43N5q/sVHF+d7j0Y+i7Aq54hK5tHMoOUrYBmB5Bkt8nSQ/TQ=="
@@ -2109,17 +2134,17 @@
   dependencies:
     "js-yaml" "^3.13.1"
 
-"hexo-fs@^0.2.0":
-  "integrity" "sha512-rLB1rMVUW3csAljvJgHfyjemL0BrmcUZfBf9hJe6S0pA53igFa3ON0PFwomvoLs1Wdmjs9Awnw9Tru4PjWFSlQ=="
-  "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-0.2.3.tgz"
-  "version" "0.2.3"
+"hexo-fs@^0.1.5":
+  "integrity" "sha512-CAcMMDXJRMA1MUckq/O3jQaeSTlLtQSnlcpMSUee5bP6IBH8/30xe2BHD8pBl367fRbkj4jRcMdBSoDgorjHqg=="
+  "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-0.1.6.tgz"
+  "version" "0.1.6"
   dependencies:
     "bluebird" "^3.4.0"
     "chokidar" "^1.5.2"
     "escape-string-regexp" "^1.0.5"
     "graceful-fs" "^4.1.4"
 
-"hexo-fs@^0.2.1":
+"hexo-fs@^0.2.0":
   "integrity" "sha512-rLB1rMVUW3csAljvJgHfyjemL0BrmcUZfBf9hJe6S0pA53igFa3ON0PFwomvoLs1Wdmjs9Awnw9Tru4PjWFSlQ=="
   "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-0.2.3.tgz"
   "version" "0.2.3"
@@ -2229,6 +2254,13 @@
     "opencollective-postinstall" "^2.0.2"
     "path" "^0.12.7"
 
+"hexo-hide-posts@^0.2.0":
+  "integrity" "sha512-euTftMGCSYkhn/ARVuOv+XQIMNTUy5vCiutaY0qcN92NdZTfPG/wKCkeR3yE7LpMs/Y0aTuEp9F5NUVP/Dt6nA=="
+  "resolved" "https://registry.npmjs.org/hexo-hide-posts/-/hexo-hide-posts-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "chalk" "^4.1.2"
+
 "hexo-i18n@^0.2.1":
   "integrity" "sha512-QhVmN/eLohu9UzvrX85zhfL7yN5O4MOkXKYmCRI8GPcg0EczX+blYYmMCugZKu/NIJ9XD5/etAVWCi/5F+fS6g=="
   "resolved" "https://registry.npmjs.org/hexo-i18n/-/hexo-i18n-0.2.1.tgz"
@@ -2242,6 +2274,14 @@
   "version" "1.0.0"
   dependencies:
     "sprintf-js" "^1.0.3"
+
+"hexo-log@^0.1.2":
+  "integrity" "sha512-HiJQ3oKvk1qS1U0HQf/kKt07fb7jO2hP68aMffkt08Bu2Rx8oVG7uB8t94r6ICBQkKLEXtlgb9WoPwHR0RmQbQ=="
+  "resolved" "https://registry.npmjs.org/hexo-log/-/hexo-log-0.1.3.tgz"
+  "version" "0.1.3"
+  dependencies:
+    "bunyan" "^1.5.1"
+    "chalk" "^1.1.1"
 
 "hexo-log@^0.2.0":
   "integrity" "sha512-fzoc+GQexxPPILTjoOQILnA3ZG2MFgqMBVel4xvJ11pXptw9+f97ynTgDAExXafyp9Nz2ChXRuqlCYgPtZSlxQ=="
@@ -3513,7 +3553,7 @@
   dependencies:
     "moment" ">= 2.9.0"
 
-"moment@^2.10.6", "moment@^2.18.0", "moment@^2.22.2", "moment@>= 2.9.0":
+"moment@^2.10.6", "moment@^2.18.0", "moment@^2.19.3", "moment@^2.22.2", "moment@>= 2.9.0":
   "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
   "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
   "version" "2.29.4"
@@ -3578,6 +3618,11 @@
     "any-promise" "^1.0.0"
     "object-assign" "^4.0.1"
     "thenify-all" "^1.0.0"
+
+"nan@^2.14.0":
+  "integrity" "sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ=="
+  "resolved" "https://registry.npmjs.org/nan/-/nan-2.17.0.tgz"
+  "version" "2.17.0"
 
 "nanomatch@^1.2.9":
   "integrity" "sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA=="
@@ -4434,7 +4479,7 @@
     "inherits" "^2.0.3"
     "pump" "^2.0.0"
 
-"qiniu@^6.1.13":
+"qiniu@^6.1.11":
   "integrity" "sha512-//Jc05W/i95Dbs7Yp8yKVHx5s/f/P2+R5Q7rbpjef2ZJaudI1SpFzgkiKGObXdYpBNMrTBZC3/ez/KDtb2hkiA=="
   "resolved" "https://registry.npmjs.org/qiniu/-/qiniu-6.1.13.tgz"
   "version" "6.1.13"
