@@ -15,7 +15,6 @@ categories:
   - TypeScript
 archive: TypeScript
 description: 详细介绍TypeScript中的函数。
-swiper_index: 9
 abbrlink: 2d2f991a
 ---
 

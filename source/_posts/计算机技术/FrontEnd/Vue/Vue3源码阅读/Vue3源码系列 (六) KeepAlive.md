@@ -17,6 +17,7 @@ categories:
   - [源码]
   - [前端, Vue3]
 abbrlink: e80db997
+swiper_index: 6
 ---
 
 `KeepAlive`是个抽象组件，自身不会渲染一个 DOM 元素，也不会出现在父组件链中，我们用它来缓存组件的状态。`KeepAlive`只对插入的单个组件起效果，因此一般只给它安排一个组件。适合与`component`或`router-view`搭配使用。

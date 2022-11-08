@@ -17,6 +17,7 @@ categories:
   - [源码]
   - [前端, Vue3]
 abbrlink: f9a32caf
+swiper_index: 3
 ---
 
 上次一起阅读了`watch`和`computed`的源码，其实应该先看副作用`effect`，因为各个响应式的`API`里基本都用到了，等结束了`reactive`和`readonly`和`ref`，就一起看看`effect`。这次要说的是`reactive`和`readonly`，两者在实现上流程大体一致。尤其是对`Map`和`Set`的方法的代理拦截，多少有点妙。

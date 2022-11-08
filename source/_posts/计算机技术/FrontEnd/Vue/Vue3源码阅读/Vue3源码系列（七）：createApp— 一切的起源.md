@@ -17,6 +17,7 @@ categories:
   - [源码]
   - [前端, Vue3]
 abbrlink: aec8236e
+swiper_index: 9
 ---
 
 前面几篇介绍的大都是`reactivity`相关的`API`。我们在使用`Vue3`作为前端框架时，往往在我们的`main.js/main.ts`里来创建`vue3`的`app`实例，就会用到`createApp`这个`API`。本篇就来简要了解一下`createApp`里发生的故事。

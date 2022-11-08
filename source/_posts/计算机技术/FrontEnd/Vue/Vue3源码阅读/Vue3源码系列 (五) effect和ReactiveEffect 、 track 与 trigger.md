@@ -18,6 +18,7 @@ categories:
   - [源码]
   - [前端, Vue3]
 abbrlink: 9baf97c7
+swiper_index: 5
 ---
 
 前面几篇文章里，介绍几个`API`的时候，我们发现里面常出现`effect`、`track`和`trigger`，虽然简单说了下`track`用于依赖收集，`trigger`来触发更新。但是毕竟没看到具体实现，心里没底。如今便可以一探究竟。

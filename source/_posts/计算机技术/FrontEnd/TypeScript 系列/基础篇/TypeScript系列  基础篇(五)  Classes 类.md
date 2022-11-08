@@ -14,7 +14,6 @@ categories:
   - 前端
   - TypeScript
 archive: TypeScript
-swiper_index: 50
 abbrlink: e1f9072b
 ---
 
