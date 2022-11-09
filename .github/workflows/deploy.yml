@@ -23,7 +23,7 @@ jobs:
 
       - name: Setup Hexo
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.actions.HEXO_DEPLOY_KEY }}
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
           mkdir -p ~/.ssh/
           rm -f ~/.ssh/id_rsa
