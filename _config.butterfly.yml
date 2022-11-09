@@ -513,19 +513,21 @@ instantpage: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 注入自定义的css，由于vercel托管的找不到css文件，暂时用github
+    # 注入自定义的css
     - <link rel="stylesheet" href="https://assets.onlyy.vip/styles/onlyy-blog/custom.css">
     # 百度收录验证
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
   bottom:
     # iconfont
-    - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
+    # - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
     # 加载进度条
-    - <script src="https://assets.onlyy.vip/js/onlyy-blog/progress-bar.js"></script>
+    # - <script src="https://assets.onlyy.vip/js/onlyy-blog/progress-bar.js"></script>
+    # 下雨效果
+    # - <script src="https://assets.onlyy.vip/js/onlyy-blog/rain.js"></script>
+    # 以上三者的合并
+    - <script src="https://assets.onlyy.vip/js/onlyy-blog/custom.js"></script>
     # 音乐播放器 data-server 用的网易云 netease / 腾讯则 tencent
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
-    # 下雨效果
-    - <script src="https://assets.onlyy.vip/js/onlyy-blog/rain.js"></script>
 
 # algolia search
 algolia_search:
@@ -566,9 +568,8 @@ footer_beautify:
     index: 0
   # 计时器部分配置项（看你喜欢哪个，最好下载下来放到自己的项目中不然会增加我网站的负载）
   # 这是我的
-  runtime_js: https://assets.onlyy.vip/js/onlyy-blog/footerTimer.js
-  ## vercel 托管的找不到css文件，暂时沿用github托管的css
   runtime_css: https://assets.onlyy.vip/styles/onlyy-blog/footerTimer.css
+  runtime_js: https://assets.onlyy.vip/js/onlyy-blog/footerTimer.js
   # 这是店长的
   # runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
   # runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
