@@ -130,7 +130,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/loveyy520/onlyy-blog.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: git@github.com:loveyy520/onlyy-blog.git
+  # repo: https://github.com/loveyy520/onlyy-blog.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
