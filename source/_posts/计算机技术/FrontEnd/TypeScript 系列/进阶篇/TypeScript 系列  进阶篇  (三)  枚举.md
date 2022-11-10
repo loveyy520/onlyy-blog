@@ -12,7 +12,6 @@ keywords:
   - 类型
 categories:
   - 前端
-  - TypeScript
 abbrlink: f79f4b48
 ---
 

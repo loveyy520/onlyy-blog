@@ -12,7 +12,6 @@ tags:
   - 前 端
 categories:
   - 前端
-  - TypeScript
 archive: TypeScript
 abbrlink: 364db865
 ---

@@ -12,7 +12,6 @@ tags:
   - 前端
 categories:
   - 前端
-  - TypeScript
 archive: TypeScript
 description: 详细介绍TypeScript中的函数。
 abbrlink: 2d2f991a

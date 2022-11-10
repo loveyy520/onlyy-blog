@@ -5,7 +5,6 @@ updated: "2022-11-02 17:21"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -15,8 +14,7 @@ keywords:
   - patch
   - render
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: "876e332"
 swiper_index: 8
 ---

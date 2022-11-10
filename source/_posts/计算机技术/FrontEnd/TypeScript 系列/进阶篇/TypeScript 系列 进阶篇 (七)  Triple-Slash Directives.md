@@ -12,7 +12,6 @@ keywords:
   - 指令
 categories:
   - 前端
-  - TypeScript
 abbrlink: ac0adb9b
 ---
 

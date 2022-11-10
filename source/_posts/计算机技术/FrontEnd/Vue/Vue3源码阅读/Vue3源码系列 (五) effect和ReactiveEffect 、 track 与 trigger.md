@@ -5,7 +5,6 @@ updated: "2022-10-21 23:42"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -15,8 +14,7 @@ keywords:
   - track
   - trigger
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: 9baf97c7
 swiper_index: 5
 ---

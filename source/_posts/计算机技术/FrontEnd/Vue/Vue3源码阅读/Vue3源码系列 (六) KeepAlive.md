@@ -5,7 +5,6 @@ updated: "2022-10-22 15:54"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -14,8 +13,7 @@ keywords:
   - KeepAlive
   - keep-alive
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: e80db997
 swiper_index: 6
 ---

@@ -5,7 +5,6 @@ updated: "2022-10-21 13:37"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -13,8 +12,7 @@ keywords:
   - 源码
   - computed
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: 16fef359
 cover: https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png
 swiper_index: 2

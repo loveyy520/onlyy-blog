@@ -12,7 +12,6 @@ keywords:
   - 装饰器
 categories:
   - 前端
-  - TypeScript
 abbrlink: 75816c7c
 ---
 

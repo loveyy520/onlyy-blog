@@ -5,7 +5,6 @@ updated: "2022-10-21 17:11"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -13,8 +12,7 @@ keywords:
   - 源码
   - ref
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: f1070434
 swiper_index: 4
 ---

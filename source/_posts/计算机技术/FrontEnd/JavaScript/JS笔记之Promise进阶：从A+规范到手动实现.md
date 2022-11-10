@@ -12,7 +12,6 @@ keywords:
   - Promise
 categories:
   - 前端
-  - JavaScript
 abbrlink: 20cb1782
 ---
 

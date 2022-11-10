@@ -13,7 +13,6 @@ keywords:
   - websocket
 categories:
   - 前端
-  - JavaScript
 abbrlink: 90f04b7f
 ---
 

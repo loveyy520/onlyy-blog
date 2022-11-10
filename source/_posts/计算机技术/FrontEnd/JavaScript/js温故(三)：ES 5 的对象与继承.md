@@ -11,7 +11,6 @@ keywords:
   - JS
 categories:
   - 前端
-  - JavaScript
 abbrlink: ee9e9f63
 ---
 

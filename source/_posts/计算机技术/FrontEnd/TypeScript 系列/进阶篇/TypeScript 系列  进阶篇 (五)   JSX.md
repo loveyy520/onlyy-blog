@@ -13,7 +13,6 @@ keywords:
   - TSX
 categories:
   - 前端
-  - TypeScript
 abbrlink: baaa9f72
 ---
 

@@ -5,7 +5,6 @@ updated: "2022-10-21 13:39"
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -14,8 +13,7 @@ keywords:
   - reactive
   - readonly
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: f9a32caf
 swiper_index: 3
 ---

@@ -12,7 +12,6 @@ keywords:
   - Namespace
 categories:
   - 前端
-  - TypeScript
 abbrlink: 2ebbd151
 ---
 

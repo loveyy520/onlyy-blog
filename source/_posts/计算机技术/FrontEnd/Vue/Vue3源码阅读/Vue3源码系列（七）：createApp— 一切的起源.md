@@ -6,7 +6,6 @@ top_img: https://assets.onlyy.vip/photos/dont-starve/bg_goats.png
 tags:
   - 前 端
   - Vue3
-  - 源码阅读
 keywords:
   - 前端
   - Vue
@@ -14,8 +13,7 @@ keywords:
   - 源码
   - createApp
 categories:
-  - [源码]
-  - [前端, Vue3]
+  - 前端
 abbrlink: aec8236e
 swiper_index: 9
 ---

@@ -12,7 +12,6 @@ keywords:
   - 函数式编程
 categories:
   - 前端
-  - JavaScript
 abbrlink: 7fdf3fd8
 ---
 
