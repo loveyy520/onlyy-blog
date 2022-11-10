@@ -519,6 +519,7 @@ inject:
     - <meta name="baidu-site-verification" content="code-uOiahucCVX" />
   bottom:
     # iconfont
+    - <script async src="//assets.onlyy.vip/js/onlyy-blog/iconfont.js"></script>
     # - <script async src="//at.alicdn.com/t/c/font_3751481_s1jp1qngav.js"></script> # iconfont onlyy-blog
     # 加载进度条
     # - <script src="https://assets.onlyy.vip/js/onlyy-blog/progress-bar.js"></script>
