@@ -30,7 +30,7 @@ highlight_theme: mac # darker # pale night # light # ocean # mac # mac light
 highlight_copy: true # 允许代码被复制
 highlight_shrink: false # 代码块默认折叠
 code_word_wrap: true # 代码换行
-highlight_height_limit: 50 # unit: px 限制代码块最大显示高度
+highlight_height_limit: 150 # unit: px 限制代码块最大显示高度
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
