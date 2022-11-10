@@ -1,7 +1,7 @@
 ---
 title: Vue3 源码系列 (九)：异步组件 defineAsyncComponent 与 Suspense
-date: 2022-11-10 17:34
-updated: 2022-11-10 17:34
+date: '2022-11-10 17:34'
+updated: '2022-11-10 17:34'
 keywords:
   - 前端
   - Vue
@@ -12,6 +12,7 @@ tags:
   - Vue3
 categories:
   - 前端
+abbrlink: 2724f441
 ---
 
 前面几篇走完了`createApp`的流程，理清了`diff`算法的思路。现在回归到运行时的核心`API`上。在第一篇和第二篇中有解读过`watch`和`computed`，而本文则主要梳理异步组件的`API`。
