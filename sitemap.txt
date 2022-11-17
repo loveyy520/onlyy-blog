@@ -1,3 +1,5 @@
+https://blog.onlyy.vip/zone/work-life/
+https://blog.onlyy.vip/articals/71570a95/
 https://blog.onlyy.vip/articals/b71a7a8/
 https://blog.onlyy.vip/articals/2724f441/
 https://blog.onlyy.vip/relax/photos/
@@ -12,7 +14,6 @@ https://blog.onlyy.vip/relax/music/
 https://blog.onlyy.vip/relax/photos/ohmygirl/
 https://blog.onlyy.vip/comments/
 https://blog.onlyy.vip/about/
-https://blog.onlyy.vip/zone/work-life/
 https://blog.onlyy.vip/articals/876e332/
 https://blog.onlyy.vip/articals/aec8236e/
 https://blog.onlyy.vip/articals/e80db997/
@@ -42,10 +43,12 @@ https://blog.onlyy.vip/articals/2d2f991a/
 https://blog.onlyy.vip/articals/70f81d2c/
 https://blog.onlyy.vip/articals/20cb1782/
 https://blog.onlyy.vip/
+https://blog.onlyy.vip/articals/tags/%E9%9A%8F%E7%AC%94/
 https://blog.onlyy.vip/articals/tags/Babel/
 https://blog.onlyy.vip/articals/tags/%E5%89%8D-%E7%AB%AF/
 https://blog.onlyy.vip/articals/tags/JavaScript/
 https://blog.onlyy.vip/articals/tags/TypeScript/
 https://blog.onlyy.vip/articals/tags/%E5%89%8D%E7%AB%AF/
 https://blog.onlyy.vip/articals/tags/Vue3/
+https://blog.onlyy.vip/articals/categories/%E9%9A%8F%E7%AC%94/
 https://blog.onlyy.vip/articals/categories/%E5%89%8D%E7%AB%AF/
