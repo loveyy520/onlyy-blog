@@ -1,13 +1,14 @@
 ---
-title: 临冬随笔
-date: "2022-11-20 17:52"
-updated: "2022-11-20 17:52"
+title: Ade, 武汉
+date: '2022-11-20 17:52'
+updated: '2022-11-20 17:52'
 categories:
   - 随笔
 tags:
   - 随笔
 encrypt: true
 secret: true
+abbrlink: 71570a95
 ---
 
 ### Ade，武汉
