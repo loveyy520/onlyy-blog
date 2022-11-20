@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.onlyy.vip/articals/71570a95/</loc>
+    
+    <lastmod>2022-11-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onlyy.vip/zone/work-life/</loc>
     
     <lastmod>2022-11-17</lastmod>
@@ -400,7 +409,7 @@
 
   <url>
     <loc>https://blog.onlyy.vip/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -408,49 +417,49 @@
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-11-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onlyy.vip/articals/tags/Babel/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/%E5%89%8D-%E7%AB%AF/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/JavaScript/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onlyy.vip/articals/tags/Babel/</loc>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/TypeScript/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/tags/Vue3/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -459,14 +468,14 @@
   
   <url>
     <loc>https://blog.onlyy.vip/articals/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.onlyy.vip/articals/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2022-11-17</lastmod>
+    <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
