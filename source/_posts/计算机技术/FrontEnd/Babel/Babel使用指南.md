@@ -11,7 +11,7 @@ keywords:
 tags:
   - Babel
   - 前端工程化
-swiper_index: 15
+swiper_index: 11
 abbrlink: b71a7a8
 ---
 

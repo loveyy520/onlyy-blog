@@ -11,7 +11,7 @@ keywords:
 tags:
   - Babel
   - 前端工程化
-swiper_index: 16
+swiper_index: 12
 abbrlink: b71a7a8
 ---
 作为一个强大的多功能`JS`转译器，`Babel`有许许多多的模块可用于静态分析。而在项目中，有时候我们也需要创建一个符合项目需求的`Babel`插件。本文旨在帮助大家深入理解`Babel`插件工作流程的同时，让大家掌握如何按需求编写自己的`Babel`插件。
