@@ -16,7 +16,7 @@ keywords:
 categories:
   - 前端
 abbrlink: "876e332"
-swiper_index: 8
+swiper_index: 9
 ---
 
 上一篇中，我们理清了`createApp`走的流程，最后通过`createAppAPI`创建了`app`。虽然`app`上的各种属性和方法也都已经有所了解，但其中的`mount`和`unmount`方法，都是通过调用`render`函数来完成的。尽管我们很好奇`render`函数的故事，可是`baseCreateRenderer`函数有`2000+`行，基本都和`render`相关，因此拆解到本文里叙述，以下方法都定义在`baseCreateRenderer`函数中。
