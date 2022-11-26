@@ -10,7 +10,8 @@ keywords:
   - babel
 tags:
   - Babel
-swiper_index: 12
+  - 前端工程化
+swiper_index: 15
 abbrlink: b71a7a8
 ---
 
