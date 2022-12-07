@@ -179,15 +179,12 @@ a = 100;
 在**函数的形参中**使用联合类型时有一些注意事项，如在上面的例子中，`a` 的类型是`string | number`，此时`a`无法调用字符串方法，因为`a`有可能是一个`number`；同理，也不能直接调用数字类型的方法。当然，也不能直接赋值给`string`类型的变量或者`number`类型的变量。
 
 ```ts
-let a: string | number;
-// a可以是string
-a = "union types";
-
-let b: string;
-let c: number;
-// 当开启了严格空值检查时，以下两次赋值都不合法
-b = a;
-c = a;
+function testTypes(input: string|number){
+  let str:string
+  let number:number
+  str = input // 非法
+  number = input  // 非法
+}
 ```
 
 当然，如果每个子类型都具有共同的方法，则可以调用该共同的方法。例如：数组和字符串都具有`slice`方法，则联合类型`string | number[]` 的变量可以调用`slice`方法。
